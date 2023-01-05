@@ -17,8 +17,14 @@
                     </ul>
                 );
             }
+
+            function Secondcomponent () {
+                return (
+                    <p>I am learning React!</p>
+                )
+            }
            const root = ReactDOM.createRoot(document.getElementById('root'));
-           root.render(<Firstcomponent/>);
+           root.render(<div><Firstcomponent/> <Secondcomponent/></div>);
         </script>
         
     </body>
