@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>    
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    </head>
+    <body>
+        <div id="root"></div>
+
+        <script type="text/babel">
+            const page = (
+                <div>
+                    <h2>This is a practice file</h2>
+                    <p>Thought experiment</p>
+                    <span>Trying to append JSX to div#root</span>
+                    <strong>It will append this code as object</strong>
+                </div>
+            )
+            console.log(page);
+
+            // const root = document.getElementById("root");
+            // root.append(page);
+            const container = ReactDOM.createRoot(document.getElementById("root"));
+            container.render(page);
+        </script>
+        
+    </body>
+</html>
