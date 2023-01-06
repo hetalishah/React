@@ -23,8 +23,13 @@
                     <p>I am learning React!</p>
                 )
             }
-           const root = ReactDOM.createRoot(document.getElementById('root'));
-           root.render(<div><Firstcomponent/> <Secondcomponent/></div>);
+
+            const paragraph = (
+                <p>This is a paragraph</p>
+            )
+            
+            const root = ReactDOM.createRoot(document.getElementById('root'));
+            root.render(<div><Firstcomponent/><Secondcomponent/> {paragraph} </div>);
         </script>
         
     </body>
