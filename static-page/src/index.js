@@ -1,26 +1,18 @@
 import React from 'react';
 import ReactDOM  from 'react-dom/client';
-import logo from './logo.svg';
+import Header from './Header/header';
+import Footer from './Footer/footer';
+import MainContent from './MainContent/main-content';
+import './index';
 
-function Page() {
+function App() {
   return (
     <div>
-      <header>
-        <nav>
-          <img src={logo} width="50px"></img>
-        </nav>
-      </header>
-      <h1>Reasons I'm excited to learn React</h1>
-      <ol>
-        <li>Single-page application</li>
-        <li>Popular library</li>
-        <li>Declarative library</li>
-      </ol>
-      <footer>
-        <small> © 2023 Hetali Shah development. All rights reserved. </small>
-      </footer>
+      <Header />  
+      <MainContent />
+      <Footer />
     </div>
   )
 }
 
-ReactDOM.createRoot(document.getElementById('root')).render(<Page />);
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
