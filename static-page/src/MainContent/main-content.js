@@ -1,4 +1,4 @@
-import React from 'react';
+import './main-content.css';
 
 function MainContent() {
     return (

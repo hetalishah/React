@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM  from 'react-dom/client';
-import Header from './header.js';
-import Footer from './footer.js';
-import MainContent from './main-content.js';
-import './index.css';
+import Header from './Header/header';
+import Footer from './Footer/footer';
+import MainContent from './MainContent/main-content';
+import './index';
 
-function Page() {
+function App() {
   return (
     <div>
       <Header />  
@@ -15,8 +15,4 @@ function Page() {
   )
 }
 
-
-
-
-
-ReactDOM.createRoot(document.getElementById('root')).render(<Page />);
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);

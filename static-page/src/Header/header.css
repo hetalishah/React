@@ -1,0 +1,22 @@
+.title {
+    color: rgb(41, 41, 118);
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 3px 3px grey;
+}
+
+.nav-items > li {
+    padding: 5px;
+}
+
+.logoSVG {
+    width: 100px;
+}

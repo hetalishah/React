@@ -1,7 +1,7 @@
-import React from 'react';
 import logo from './logo.svg';
+import './header.css';
 
-function Header() {
+export default function Header() {
   return (
     <header>
       <nav className="navBar">
@@ -15,5 +15,3 @@ function Header() {
     </header>
   )
 }
-
-export default Header;
