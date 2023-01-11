@@ -1,0 +1,22 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    color: #61DAFB;
+}
+
+.logo {
+    width: 60px;
+}
+
+.projectInfo {
+    padding-right: 20px;
+    color: white;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.875);
+}

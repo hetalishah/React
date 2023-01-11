@@ -1,0 +1,22 @@
+.list-items > li::marker {
+    color: #61DAFB;
+}
+
+.mainContent {
+    height: 100%;
+    padding-left: 30px;  
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url(../logo.svg);
+    background-repeat: no-repeat;
+    background-position: right 75%;
+}
+
+.topic {
+    color: white;
+}
+
+.list-items {
+    color:aliceblue;
+}
+
+
